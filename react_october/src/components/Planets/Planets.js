@@ -34,6 +34,10 @@ class Planets extends Component {
         }
         const num = response.count / 10
 
+
+
+
+
         return (
             <div>
                 <h2>{num}</h2>

@@ -6,6 +6,9 @@ import Planet from "./Planet";
 class Planets extends Component {
     state = {response: null};
     appService = new AppServices();
+    componentWillMount() {
+
+    }
 
     componentDidMount() {
 
